@@ -1,0 +1,9 @@
+# Эт для того чтобы упростить запуск
+# чтобы запустить достаточно: docker-compose up --build
+
+version: "3.8"
+services:
+  vue-todo:
+    build: .
+    ports:
+      - "8080:80"
